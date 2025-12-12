@@ -44,3 +44,13 @@
 │   └── workflows/       # GitHub Actions CI 配置
 ├── Dockerfile           # Docker 构建文件
 └── README.md            # 项目说明文档
+
+
+学习路线总结
+如果你想真的学会，请按照这个顺序去 Google 搜索并实操教程：
+入门周：学习 Linux 常用命令（cd, ls, grep, chmod）和 Git 基础（add, commit, push）。
+代码周：用 Python 写个 Hello World，并用 Docker 把它跑起来。
+云原月：安装 Minikube (本地 K8s)，试着把你的 Docker 容器部署进去。
+工程化月：学习 GitHub Actions 自动构建，了解 ArgoCD。
+监控月：在 K8s 里安装 Prometheus + Grafana，看懂那些图表。
+进阶：去 AWS/阿里云 注册个免费账号，用 Terraform 开一台真正的云服务器。
